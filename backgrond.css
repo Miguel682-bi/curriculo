@@ -1,0 +1,106 @@
+body {
+    margin: auto;
+    width: 700px;
+}
+/*personalizar menu*/
+.menu{
+    background-color: rgb(0, 0, 0); /*cor de fundo do menu*/
+    border-radius: 15px;  /*arredondar bordas do menu*/
+}
+
+.menu ul a {
+    color: white;   /*cor de letra*/
+    text-decoration: none;   /*decoração de linki desativada*/
+
+
+
+}
+
+.logo{
+    border-radius: 10px;
+    width: 40px; 
+}
+
+.rodape{
+    /*cor do rodapé*/
+    background-color: rgba(0, 0, 0, 0.704);
+    /*cor da letra*/
+    color: rgb(255, 255, 255); 
+    /*margem de cima*/
+    margin-top: 40px;
+    /*espaçamento interno*/
+    padding-top: 20px;
+
+}
+/*personalizar menu*/
+.menu{
+    background-color: black; /*cor de fundo do menu*/
+    border-radius: 15px;       /*arredondar bordas do menu*/
+}
+/*deixar lista lado a lado*/
+.menu ul li {
+    display: inline-block;     /*colocar opções da lista do menu lado a lado*/
+    padding: 10px;             /*espaçamento interno*/
+    width: 190px;              /*largura do botão do menu*/
+}
+.menu ul li a {
+    color: white;           /*cor de letra*/
+    text-decoration: none;    /*decoração de link desativada*/
+}
+
+.menu ul{
+    margin: 0px
+    padding 0px
+}
+
+
+#redes ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: nome;
+}
+
+.celular{
+    /*desapareça o icone menu na versão desktop*/
+}
+/*definindo configuração no modo de celular*/
+@media(max-width: 1050px){
+    .menu ul {
+        display: none;
+    }
+    .celular{
+        display: block; /*aparece menu hamburguer do celular*/
+        text-align: left;
+        padding: 8px;
+        
+    }
+
+
+    ul.mostraMenu{
+        display: inline-block;
+    }
+
+section{
+    background-color: rgba(rgba(255, 255, 255, 0.919));
+    width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: blue;
+    animation: animacao   1s alternate infinite;
+
+}
+
+
+}
+@keyframes animacao {
+    0% { box-shadow: 2px 2px 4px turquoise;}
+    25% { box-shadow: 2px 2px 4px rgb(247, 247, 247) ;}
+    50% { box-shadow: 2px 2px 4px blueviolet (219, 219, 216);}
+    75% { box-shadow: 2px 2px 4px white;}
+    100%{ box-shadow: 2px 2px 4px turquoise;}
+}
+  
+
+
+
